@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ASUS_Z00VD.mk
+    $(LOCAL_DIR)/omni_z00vd.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ASUS_Z00VD-user \
-    omni_ASUS_Z00VD-userdebug \
-    omni_ASUS_Z00VD-eng
+    omni_z00vd-user \
+    omni_z00vd-userdebug \
+    omni_z00vd-eng
