@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/asus/ASUS_Z00VD
+DEVICE_PATH := device/asus/z00vd
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -18,7 +18,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ASUS_Z00VD
+TARGET_OTA_ASSERT_DEVICE := z00vd
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -49,8 +49,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := zImage
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/asus/ASUS_Z00VD
-TARGET_KERNEL_CONFIG := ASUS_Z00VD_defconfig
+TARGET_KERNEL_SOURCE := kernel/asus/z00vd
+TARGET_KERNEL_CONFIG := z00vd_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6580
