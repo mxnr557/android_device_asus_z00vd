@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/asus/ASUS_Z00VD
+LOCAL_PATH := device/asus/z00vd
